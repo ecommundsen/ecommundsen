@@ -12,9 +12,9 @@ author_profile: true
   {% if post.category == "article" %}
     <p>
       <strong>{{ post.title }}</strong><br>
-      {{ post.author }}.<br>
+      {{ post.author }}<br>
       <i>{{ post.venue }}</i>, 
-      {{ post.date | date: "%Y" }}.<br>
+      {{ post.date | date: "%Y" }}<br>
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
@@ -28,12 +28,11 @@ author_profile: true
 {% for post in site.publications %}
   {% if post.category == "in-book" %}
     <p>
-      <strong>{{ post.title }}</strong><br>
-      in <i>{{ post.venue }}</i>
-      {{ post.author }}.
-      {{ post.date | date: "%Y" }}.
+      <strong>{{ post.title }}</strong> in <i>{{ post.venue }}</i><br>
+      {{ post.author }}<br>
       {{ post.editor }}
-      {{ post.publisher}}.
+      {{ post.publisher}},
+      {{ post.date | date: "%Y" }}<br>
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
@@ -51,9 +50,9 @@ author_profile: true
 {% for post in working_papers %}
   <p>
     <strong>{{ post.title }}</strong><br>
-    {{ post.author }}.
+    {{ post.author }}<br>
     {% if post.status != blank %}
-      <i>{{ post.status }}</i>.
+      <i>{{ post.status }}</i><br>
     {% endif %}
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}">[Download]</a>
