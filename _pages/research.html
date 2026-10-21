@@ -10,9 +10,10 @@ author_profile: true
 
 {% assign articles = site.publications
   | where: "category", "article"
-  | sort: "order" %}
+  | sort: "order" 
+  | reverse %}
 
-{% for post in articles reversed %}
+{% for post in articles %}
     <p>
       <strong>{{ post.title }}</strong><br>
       {{ post.author }}<br>
