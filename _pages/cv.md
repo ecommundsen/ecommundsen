@@ -16,7 +16,7 @@ redirect_from:
 </iframe>
 
 <p>
-  <a href="https://ecommundsen.github.io/ecommundsen/files/ommundsen_cv.pdf" target="_blank" download>
+  <a href="https://ecommundsen.github.io/ecommundsen/files/ommundsen_cv.pdf" target="_blank" rel="noopener">
     Download a PDF copy of my CV
   </a>
 </p>
