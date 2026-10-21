@@ -1,13 +1,10 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Getting What You Pay For: Resource Allocations and Legislative Success"
 collection: publications
-category: conferences
-permalink: /publication/2025-06-08-paper-title-number-5
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /research/ommundsen_getting_what_you_pay_for_lsq
+date: 2025-01-01
+venue: 'Legislative Studies Quarterly'
+paperurl: 'https://ecommundsen.github.io/ecommundsen/files/ommundsen_getting_what_you_pay_for_lsq.pdf'
+citation: 'Ommundsen, Emily Cottle. 2025. &quot;Getting What You Pay For: Resource Allocations and Legislative Success.&quot; <i>Legislative Studies Quarterly</i>. 50(4).'
 ---
-
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
