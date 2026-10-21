@@ -3,7 +3,7 @@ title: "Partisan Appeals to Bipartisanship"
 collection: publications
 category: article
 permalink: /research/case_ommundsen_partisan_appeals_to_bipartisanship_pb
-excerpt: #'This paper is about fixing template issue #693.'
+author: Colin R. Case and Emily Cottle Ommundsen
 date: 2024-01-01
 venue: 'Political Behavior'
 paperurl: 'https://ecommundsen.github.io/ecommundsen/files/case_ommundsen_partisan_appeals_to_bipartisanship_pb.pdf'
