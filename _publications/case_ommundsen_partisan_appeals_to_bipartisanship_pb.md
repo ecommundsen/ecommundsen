@@ -1,7 +1,7 @@
 ---
 title: "Partisan Appeals to Bipartisanship"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /research/case_ommundsen_partisan_appeals_to_bipartisanship_pb
 excerpt: #'This paper is about fixing template issue #693.'
 date: 2024-01-01
