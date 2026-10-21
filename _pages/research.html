@@ -44,8 +44,11 @@ author_profile: true
 <h2>Working Papers</h2>
 <hr>
 
-{% for post in site.publications reversed %}
-  {% if post.category == "working-paper" %}
+{% assign working_papers = site.publications
+  | where: "category", "working-paper"
+  | sort: "order" %}
+
+{% for post in working_papers %}
     <p>
       <strong>{{ post.title }}</strong>.<br>
       {{ post.author }}.
