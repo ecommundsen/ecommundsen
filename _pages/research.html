@@ -49,15 +49,14 @@ author_profile: true
   | sort: "order" %}
 
 {% for post in working_papers %}
-    <p>
-      <strong>{{ post.title }}</strong>.<br>
-      {{ post.author }}.
-      <i>{{ post.status }}</i>.
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}">[Download]</a>
-      {% endif %}
-    </p>
-  {% endif %}
+  <p>
+    <strong>{{ post.title }}</strong>.<br>
+    {{ post.author }}.
+    <i>{{ post.status }}</i>.
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">[Download]</a>
+    {% endif %}
+  </p>
 {% endfor %}
 
 
