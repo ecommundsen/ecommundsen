@@ -52,7 +52,9 @@ author_profile: true
   <p>
     <strong>{{ post.title }}</strong><br>
     {{ post.author }}.
-    <i>{{ post.status }}</i>.
+    {% if post.status != blank %}
+      <i>{{ post.status }}</i>.
+    {% endif %}
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}">[Download]</a>
     {% endif %}
