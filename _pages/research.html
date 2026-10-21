@@ -13,8 +13,8 @@ author_profile: true
     <p>
       <strong>{{ post.title }}</strong>.
       {{ post.author }}
-      {{ post.date }}
-      {{ post.venue}}
+      {{ post.date | date: "%Y" }}
+      <i></i>{{ post.venue}}</i>
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
