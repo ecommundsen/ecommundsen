@@ -11,10 +11,10 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% if post.category == "article" %}
     <p>
-      <strong>{{ post.title }}</strong>.
-      {{ post.author }}
-      {{ post.date | date: "%Y" }}
-      <i></i>{{ post.venue}}</i>
+      <strong>{{ post.title }}</strong>.<br>
+      {{ post.author }}.
+      {{ post.date | date: "%Y" }}.
+      <i></i>{{ post.venue}}</i>.
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
