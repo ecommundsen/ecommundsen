@@ -1,7 +1,7 @@
 ---
 title: "The Institution's Knowledge: Congressional Staff Experience and Committee Productivity"
 collection: publications
-category: manuscripts
+category: article
 permalink: /research/ommundsen_institutions_knowledge_lsq
 date: 2023-06-01
 venue: 'Legislative Studies Quarterly'
