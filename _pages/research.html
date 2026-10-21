@@ -29,9 +29,9 @@ author_profile: true
   {% if post.category == "in-book" %}
     <p>
       <strong>{{ post.title }}</strong>.<br>
+      in <i>{{ post.venue }}</i>.
       {{ post.author }}.
       {{ post.date | date: "%Y" }}.
-      <i>{{ post.venue }}</i>,
       {{ post.editor }}.
       {{ post.publisher}}.
       {% if post.paperurl %}
