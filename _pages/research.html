@@ -8,8 +8,11 @@ author_profile: true
 <h2>Peer-Reviewed Articles</h2>
 <hr>
 
-{% for post in site.publications reversed %}
-  {% if post.category == "article" %}
+{% assign articles = site.publications
+  | where: "category", "article"
+  | sort: "order" %}
+
+{% for post in articles reversed %}
     <p>
       <strong>{{ post.title }}</strong><br>
       {{ post.author }}<br>
@@ -19,7 +22,6 @@ author_profile: true
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
     </p>
-  {% endif %}
 {% endfor %}
 
 <h2>Book Chapters</h2>
