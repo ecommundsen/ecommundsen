@@ -3,6 +3,7 @@ title: "The Role of Social Capital in Institutional Capacity: Congressional Staf
 collection: publications
 category: in-book
 permalink: /research/ommundsen_social_capital
+author: Emily Cottle Ommundsen
 date: 2027-01-01
 venue: 'New Directions in Congressional Politics'
 paperurl: 'https://ecommundsen.github.io/ecommundsen/files/ommundsen_social_capital.pdf'
