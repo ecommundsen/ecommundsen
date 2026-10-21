@@ -29,10 +29,10 @@ author_profile: true
   {% if post.category == "in-book" %}
     <p>
       <strong>{{ post.title }}</strong>.<br>
-      in <i>{{ post.venue }}</i>.
+      in <i>{{ post.venue }}</i>
       {{ post.author }}.
       {{ post.date | date: "%Y" }}.
-      {{ post.editor }}.
+      {{ post.editor }}
       {{ post.publisher}}.
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
