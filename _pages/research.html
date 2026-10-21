@@ -12,7 +12,9 @@ author_profile: true
   {% if post.category == "article" %}
     <p>
       <strong>{{ post.title }}</strong>.
-      {{ post.citation }}
+      {{ post.author }}
+      {{ post.date }}
+      {{ post.venue}}
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
