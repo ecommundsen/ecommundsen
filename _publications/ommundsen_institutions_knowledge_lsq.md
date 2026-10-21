@@ -3,6 +3,7 @@ title: "The Institution's Knowledge: Congressional Staff Experience and Committe
 collection: publications
 category: article
 permalink: /research/ommundsen_institutions_knowledge_lsq
+author: Emily Cottle Ommundsen
 date: 2023-06-01
 venue: 'Legislative Studies Quarterly'
 paperurl: 'https://ecommundsen.github.io/ecommundsen/files/ommundsen_institutions_knowledge_lsq.pdf'
