@@ -28,11 +28,12 @@ author_profile: true
 {% for post in site.publications %}
   {% if post.category == "in-book" %}
     <p>
-      <strong>{{ post.title }}</strong> in <i>{{ post.venue }}</i><br>
+      <strong>{{ post.title }}</strong><br>
       {{ post.author }}<br>
-      {{ post.editor }}
-      {{ post.publisher}},
-      {{ post.date | date: "%Y" }}<br>
+      in <i>{{ post.venue }}</i>, 
+        {{ post.date | date: "%Y" }}. 
+        {{ post.editor }}. 
+        {{ post.publisher}}<br>
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
