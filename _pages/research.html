@@ -14,7 +14,7 @@ author_profile: true
       <strong>{{ post.title }}</strong>.<br>
       {{ post.author }}.
       {{ post.date | date: "%Y" }}.
-      <i></i>{{ post.venue}}</i>.
+      <i>{{ post.venue }}</i>.
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
@@ -28,8 +28,12 @@ author_profile: true
 {% for post in site.publications %}
   {% if post.category == "in-book" %}
     <p>
-      <strong>{{ post.title }}</strong>.
-      {{ post.citation }}
+      <strong>{{ post.title }}</strong>.<br>
+      {{ post.author }}.
+      {{ post.date | date: "%Y" }}.
+      <i>{{ post.venue }}</i>,
+      {{ post.editor }}.
+      {{ post.publisher}}.
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
@@ -43,8 +47,8 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% if post.category == "working-papers" %}
     <p>
-      <strong>{{ post.title }}</strong>.
-      {{ post.citation }}
+      <strong>{{ post.title }}</strong>.<br>
+      {{ post.author }}.
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">[Download]</a>
       {% endif %}
