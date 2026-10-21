@@ -1,7 +1,7 @@
 ---
 title: "Integrating Classroom and Community with Undergraduate Civically Engaged Research"
 collection: publications
-category: manuscripts
+category: article
 permalink: /research/schmitt_mehlhaff_ommundsen_integrating_classroom_and_community_ps
 date: 2023-10-01
 venue: 'PS: Political Science & Politics'
