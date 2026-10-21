@@ -16,7 +16,7 @@ redirect_from:
 </iframe>
 
 <p>
-  <a href="{{ '/files/ommundsen_cv.pdf' | relative_url }}" target="_blank">
+  <a href="https://ecommundsen.github.io/ecommundsen/files/ommundsen_cv.pdf" target="_blank" download>
     Download a PDF copy of my CV
   </a>
 </p>
